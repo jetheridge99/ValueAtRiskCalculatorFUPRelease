@@ -25,7 +25,6 @@ These are only estimations and should not be taken as a safe bet against an inve
 * Follow the Instructions below for information on how to do this.
 
 ##### Setting up a location to hold portfolios
-###### Unix systems
 * Create a new folder in your root directory to hold portfolios:
 
 ``` 
@@ -56,7 +55,7 @@ The application must have a few components installed for it to work:
 
 
 ##### Installation
-To run the application there are three options.
+To run the application there are two options.
 ###### Unix Systems
 * For a JAR file, double click the Icon and the application will run from there.
 * Alternatively, to run from the command line, use:
@@ -66,15 +65,7 @@ To run the application there are three options.
  
  java -jar ValueAtRiskCalculator.jar
 ```
-###### Windows Systems
-* For an EXE file, double click the icon and the application will run from there.
-* Alternatively, to run from the command line, use:
 
-```
- cd [path to the file location]
- 
- start ValueAtRiskCalculator.exe
-```
 ###### Java files
 * If you have the entire project source files and dependencies, you can import this software as a Maven project on your IDE.
 * From there, navigate to the ``ValueAtRiskController.java`` file and create a build path from there.
@@ -94,17 +85,20 @@ If the interface is confusing or if the results do not make sense, click ``help`
 
 Once the results appear, click either of the ``charts`` buttons, where a screen will pop up. This screen will show pie charts that give a visual representation of the results.
 
-##Author
+## Youtube Tutorial
+There is also a tutorial on Youtube to help with setting up and using the application. [Click here to watch the video](https://youtu.be/eqMs5HTWmk0)
+
+## Author
 Software written by James Etheridge
 * [Email](jamesajetheridge@hotmail.com)
 * [LinkedIn](https://www.linkedin.com/in/james-etheridge-83471a195/)
 
-##Acknowledgements
+## Acknowledgements
 * This project was supervised by Emma Lieu, on behalf of the RHUL Computer Science Department
 * Credit is also due to [Alpha Vantage](https://www.alphavantage.co), for letting me use their API free of charge for educational purposes.
 * I have reused some code from [CrazzyGhost](https://github.com/crazzyghost/alphavantage-java)'s Alpha Vantage API wrapper to connect to the API and retrieve data. It is marked in the source code and JavaDoc too.
 
-##License
+## License
 This software was created by [James Etheridge](jamesajetheridge@hotmail.com) and should not be used, distributed or modified without the Authors permission. 
 
 2020-2021 RHUL Final Year Project
